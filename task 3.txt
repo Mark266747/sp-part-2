@@ -1,0 +1,17 @@
+main program
+
+int32_t a03, b12, c15, z26, x45;
+scan(a03);
+scan(b12);
+
+for c25 = a03 downto b12 do
+ print (c25 * c25);
+
+x45 = 0;
+
+for c25 = 1 downto a03 do 
+  for z26 = 1 downto b12 do
+x45 = x45 add 1;
+
+print (x45);
+end
