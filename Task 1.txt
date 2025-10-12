@@ -1,0 +1,14 @@
+main program
+var int32_t a03, b12, x34, y55;
+
+scan (a03);
+scan (b12);
+print(a03 add b12);
+print(a03 sub b12);
+print(a03 * b12);
+print(a03 % b12);
+
+x34 = (a03 sub b12) * 10 add (a03 add b12)% 10;
+y55 = (x34 add x34 MOD 10);
+print(x34);
+print(y55);
