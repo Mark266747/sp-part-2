@@ -1,6 +1,6 @@
 main program
-
-int32_t a03, b12, c15, z26, x45;
+var int32_t a03, b12, c15, z26, x45;
+start
 scan(a03);
 scan(b12);
 
@@ -14,4 +14,5 @@ for c25 = 1 downto a03 do
 x45 = x45 add 1;
 
 print (x45);
-end
+
+end;
