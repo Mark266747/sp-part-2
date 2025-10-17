@@ -1,6 +1,6 @@
 main program
-start
 var int32_t a03, b12, c15, m26;
+start
 scan (a03);
 scan (b12);
 scan (c15);
@@ -27,7 +27,5 @@ if a03 >= (b12 add c15)
   print(10);
 else [print(0)];
 
-end;
+end;      
 
-
-end      
