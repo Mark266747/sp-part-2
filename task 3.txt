@@ -1,18 +1,17 @@
-main program
-var int32_t a03, b12, c15, z26, x45;
+mainprogram
+var int32_t a03, b12, c15, z27, x45;
 start
-scan(a03);
-scan(b12);
+    scan(a03);
+    scan(b12);
 
-for c25 = a03 downto b12 do
- print (c25 * c25);
+    for c15 := a03 to b12 do
+        print(c15 * c15);
 
-x45 = 0;
+    0 := x45;
+    for c15 := 1 to a03 do
+        for z27 := 1 to b12 do
+            x45 add 1 := x45;
+    print(x45);
 
-for c25 = 1 downto a03 do 
-  for z26 = 1 downto b12 do
-x45 = x45 add 1;
+end
 
-print (x45);
-
-end;
