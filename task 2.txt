@@ -6,11 +6,11 @@ start
     scan(c15);
 
     if a03 >> b12 and a03 >> c15 {
-        a03 eq m33;
+        a03 =: m33;
     } else if b12 >> a03 and b12 >> c15 {
         b12 eq m26;
     } else {
-        c15 eq m26;
+        c15 =: m26;
     }
     print(m26);
 
@@ -32,5 +32,6 @@ start
         print(0);
     }
 end
+
 
 
