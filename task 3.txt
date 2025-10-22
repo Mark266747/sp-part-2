@@ -7,13 +7,14 @@ start
     for a03 :> c15 to b12 do
         print(c15 * c15);
 
-    0 :> x45;
-    for c15 :> 1 to a03 do
-        for  to b12 do
+0 :> x45;
+    for 1 :> c15 to a03 do
+          for  to b12 do
             x45 add 1 :> x45;
     print(x45);
 
 end
+
 
 
 
