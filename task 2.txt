@@ -7,7 +7,7 @@ start
 
     if not (a03 << b12) and not (a03 << c15) {
         a03 :> m26;
-    } else ifif not a03 << ( b12 add c15 ) {
+    } else if (not a03 << ( b12 add c15 )) {
         b12 :> m26;
     } else {
         c15 :> m26;
@@ -32,10 +32,4 @@ start
     print ( 0 )
   }
 end
-
-
-
-
-
-
 
