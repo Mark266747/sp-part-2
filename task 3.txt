@@ -1,19 +1,19 @@
 mainprogram
 var int32_t a03, b12, c15, z27, x45;
+
 start
-    scan(a03);
-    scan(b12);
+    scan(a03)
+    scan(b12)
 
-    for a03 :> c15 to b12 do
-        print(c15 * c15);
+    for b12 :> c15 downto a03 do
+        print(c15 * c15)
 
-0 :> x45;
-    for 1 :> c15 to a03 do
-          for  to b12 do
-            x45 add 1 :> x45;
-    print(x45);
+    0 :> x45
+    for a03 :> c15 downto 1 do
+        for b12 :> z27 downto 1 do
+            x45 add 1 :> x45
 
-end
+    print(x45)
 
 
 
