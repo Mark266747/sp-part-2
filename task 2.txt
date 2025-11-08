@@ -21,7 +21,7 @@ start
     }
         
     if  (a03 << 0) || (b12 << 0) || (c15 << 0) {
-        print(-1);
+        print(sub 1);
     } else {
         print(0);
     }
@@ -32,4 +32,5 @@ start
     print ( 0 )
   }
 end
+
 
