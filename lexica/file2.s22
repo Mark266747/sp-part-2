@@ -1,0 +1,34 @@
+mainprogram
+var int32_t a03, b12, c15, m26;
+start
+    scan(a03);
+    scan(b12);
+    scan(c15);
+
+    if ((a03 >> b12) and (a03 >> c15)) {
+        a03 :> m26;
+    } else if ((b12 >> a03) and (b12 >> c15)) {
+        b12 :> m26;
+    } else {
+        c15 :> m26;
+    }
+    print(m26);
+
+    if ((a03 eg b12) and (a03 eg c15) and (b12 eg c15)) {
+        print(1);
+    } else {
+        print(0);
+    }
+        
+    if  ((a03 << 0) || (b12 << 0) || (c15 << 0)) {
+        print(sub 1);
+    } else {
+        print(0);
+    }
+
+    if (not a03 << ( b12 add c15 )) {
+    print ( 10 );
+    } else {
+    print ( 0 );
+    }
+end

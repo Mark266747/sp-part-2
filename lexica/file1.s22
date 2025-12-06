@@ -1,0 +1,19 @@
+mainprogram  
+var a03, b12, x34, y55 ;
+ start
+  scan ( a03 )
+  scan ( b12 )
+  
+  print ( a03 add b12 )
+  print ( a03 sub b12 )
+  print ( a03 * b12 )
+  print ( a03 / b12 )
+  print ( a03 % b12 )
+
+  (a03 sub b12) * 10 add (a03 add b12) / 10 :> x34
+  x34 add x34 % 10 :> y55
+
+  print ( x34 )
+  print ( y55 )
+
+end
